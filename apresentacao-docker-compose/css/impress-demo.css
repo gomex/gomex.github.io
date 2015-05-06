@@ -645,6 +645,7 @@ a:focus {
     -ms-transform:     translateY(0px);
     -o-transform:      translateY(0px);
     transform:         translateY(0px);
+    text-align: center;
 
     /*
         Now for fade in transition we have the oposite situation from the one
