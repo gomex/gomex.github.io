@@ -58,8 +58,13 @@ body {
     line-height: 1;
 }
 ol, ul {
-    list-style: circle;
+    list-style: none;
     text-align: left;
+    font-size: 20px;
+}
+
+img {
+   padding-right: 10px;
 }
 blockquote, q {
     quotes: none;
