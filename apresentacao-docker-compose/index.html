@@ -210,17 +210,57 @@
 
     <div class="step slide" data-x="2000" data-y="-500">
        <q>Instalação</q>
-       <img src="multiplos_containers.gif">
+       <br>
+       <br>
+       <p># curl -L https://github.com/docker/compose/releases/download/1.2.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose</p>
+       <br>
+       <p># chmod +x /usr/local/bin/docker-compose</p>
+       <br>
+       <p>ou</p>
+       <br>
+       <p># pip install -U docker-compose</p>
     </div>
 
     <div class="step slide" data-x="3000" data-y="-500">
-        <q>Qual a solução?</q>
-	<img src="solucao3.gif">
+       <q>Comandos básicos</q>
+       <br>
+       <ul>
+         <li>docker-compose up</li>
+         <li>docker-compose up -d</li>
+         <li>docker-compose up --no-recreate</li>
+         <li>docker-compose stop</li>
+         <li>docker-compose start</li>
+         <li>docker-compose rm</li>
+      </ul>
+
     </div>
 
     <div class="step slide" data-x="4000" data-y="-500">
-       <q>Docker Compose</q>
-       <img src="docker_compose_up.png" width="700px">
+       <q>Variáveis de ambiente</q>
+       <br>
+       <ul>
+         <li>COMPOSE_PROJECT_NAME</li>
+         <li>COMPOSE_FILE</li>
+         <li>DOCKER_HOST</li>
+         <li>DOCKER_TLS_VERIFY</li>
+         <li>DOCKER_CERT_PATH</li>
+      </ul>
+
+   </div>
+   <div class="step slide" data-x="-2000" data-y="500">
+       <q>Estrutura do arquivo docker-compose.yml</q>
+       <br>
+       <ul>
+         <li>web:</li>
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;build: .</li>
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;links:</li>
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- db</li>
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;ports:</li>
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- "8000:8000"</li>
+         <li>db:</li>
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;image: postgres</li>
+      </ul>
+
    </div>
 
     <div class="step slide" data-x="-1000" data-y="500">
