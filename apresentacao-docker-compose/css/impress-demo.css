@@ -63,6 +63,11 @@ ol, ul {
     font-size: 20px;
 }
 
+p {
+   text-align: left;
+   font-size: 20px;
+}
+
 img {
    padding-right: 10px;
 }
