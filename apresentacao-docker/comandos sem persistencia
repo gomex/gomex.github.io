@@ -1,0 +1,7 @@
+docker pull node
+docker run -p 80:80 -d nginx ; CID=`docker ps -q -l`
+docker exec $CID ls /root/linguagil
+docker exec $CID touch /root/linguagil
+docker stop $CID
+docker run -p 80:80 -d nginx ; CID=`docker ps -q -l`
+docker exec $CID ls /root/linguagil
