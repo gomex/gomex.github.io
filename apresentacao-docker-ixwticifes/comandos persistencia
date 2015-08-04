@@ -1,0 +1,4 @@
+docker run -d -v /tmp:/root nginx ; CID=`docker ps -q -l`
+ls /tmp/linguagil
+docker exec $CID touch /root/linguagil
+ls /tmp/linguagil
