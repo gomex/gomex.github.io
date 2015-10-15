@@ -1,0 +1,9 @@
+CID=`docker ps -q -l`
+docker exec $CID touch /root/linguagil
+docker commit $CID gomex/linguagil:teste
+docker stop $CID
+docker run -p 80:80 -d gomex/linguagil:teste
+CID=`docker ps -q -l`
+docker exec $CID ls /root/linguagil
+docker push gomex/linguagil:teste
+docker stop $CID
