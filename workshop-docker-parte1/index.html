@@ -1,0 +1,109 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Docker</title>
+  <link rel="icon" type="image/x-icon" href="arquivos/raul-hacker-club-icon.png" />
+  <script src="arquivos/jquery-2.0.0.js"></script>
+  <script src="arquivos/coffee-script.js"></script>
+  <link rel="stylesheet" href="arquivos/highlight.js/styles/default.css">
+  <script src="arquivos/highlight.js/highlight.pack.js"></script>
+  <script src="arquivos/coffee-term.js"></script>
+  <link rel="stylesheet" type="text/css" href="arquivos/style.css" />
+</head>
+<body>
+<div id="impress" data-transition-duration="700">
+  <div id="abertura" class="step" data-x="1200" data-y="-100" data-scale="4">
+    <img src="imagens/docker.png" height="300px">
+    <br>
+    <div id="contato">rgomes@thoughtworks.com</div>
+    <div id="contato">http://thoughtworks.com &mdash; http://techfree.com.br</div>
+    <div id="onde"><img src="imagens/logo-tw.png" height="100px"></div>
+  </div>
+  <div id="intro" class="step" data-x="2450" data-y="-900" data-scale="1.5" data-rotate="-10">
+    <h1>Workshop Docker</h1>
+    <div style="text-align:right; margin-top:-40px; padding-bottom:40px">-- Parte 1</div>
+  </div>
+  <div class="step" data-x="4000" data-y="-1900">
+    <h1>O que é Docker?</h1>
+    <center>
+    <img src="imagens/docker-architecture.svg" height="600px">
+    </center>
+  </div>
+  <div class="step" data-x="5500" data-y="-1900">
+    <h1>O Docker é virtualização?</h1>
+    <center>
+    <img src="imagens/what-is-vm-diagram.png" height="400px">
+    </center>
+  </div>
+  <div class="step" data-x="4000" data-y="-1100">
+	 <h1>Qual diferença de uma máquina virtual?</h1>
+	    <center>
+	          <img src="imagens/docker_vs_vmware.png" height="400px">
+	    </center>
+  </div>
+  <div class="step" data-x="4000" data-y="-400">
+	<h1>Camadas</h1>
+    <center>
+    <img src="imagens/aufs_layers.jpg" height="500px">
+    </center>
+  </div>  
+  <div class="step" data-x="4000" data-y="300">
+	<h1>Camadas</h1>
+    <center>
+    <img src="imagens/containers.png" height="600px">
+    </center>
+  </div>
+  <div class="step" data-x="4000" data-y="1000">
+	<h1>Mais informações:</h1>
+    <h2>https://docs.docker.com/reference</h2>
+    <h2>https://registry.hub.docker.com</h2>
+  </div> 
+
+  <div class="step" data-x="3600" data-y="-3100" data-rotate="-90">
+    <h1>Até o próximo vídeo</h1>
+  </div>
+
+<!-- id="impress" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<div id="term-border">
+  <div id="term">
+    <pre class="code coffee" onmouseover="coffeeTerm.editMode(true)"></pre>
+    <pre class="code js"></pre>
+    <div class="output"></div>
+    <!-- button onclick="coffeeTerm.run()">Executar</button -->
+    <img id="run" src="arquivos/run.svg" onclick="coffeeTerm.run()" width="26"/>
+  </div>
+</div>
+<script src="arquivos/impress.js"></script>
+<script type="text/coffeescript">
+    # Ajusta tópicos da apresentação
+    $('.step').each (nStep, step)->
+        metaStep = $('<div class="metaStep"/>').insertBefore step
+        metaStep.attr 'id', 'meta-' + step.id  if step.id
+        $(step).appendTo metaStep
+        $('li', step).each (nLi, li)->
+            if 'visible' not in li.classList
+                newStep = $(step).clone().appendTo metaStep
+                newStep[0].id += '-' + 'ABCDEFGHIJKLMNOPQRSTUWXYZ'[nLi] if newStep[0].id
+                for i in [1..nLi+1]
+                    $("li:nth-of-type(#{i})", newStep).addClass 'visible'
+
+    # Remove indentação base (o espaçamento da primeira linha) nos fontes
+    for codeEl in $('pre code')
+        lines = codeEl.innerHTML.replace(/^\s*\n/, '').split '\n'
+        indent = lines[0].match(/^(\s*)/)[1]
+        lines = lines.map (l)-> l[indent.length..]
+        codeEl.innerHTML = lines.join '\n'
+
+    # Highlight dos fontes
+    do hljs.initHighlightingOnLoad
+
+    # CSS Workarrounds
+    nav = window.navigator.userAgent.match(/webkit|firefox/i)[0].toLowerCase()
+    $(document.body).addClass nav
+
+    # Inicia apresentação
+    $ -> do impress().init
+</script>
+</body>
+</html>
