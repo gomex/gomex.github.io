@@ -3,3 +3,9 @@
   description: My blog
 - url: "https://leanpub.com/dockerparadesenvolvedores"
   description: My book "Docker para Desenvolvedores"
+- url: "https://www.slideshare.net/linux.rafa/precisamos-falar-sobre-testes-de-infraestrutura"
+  description: Slides da palestra "Precisamos falar sobre testes de infraestrutura"
+- url: "https://www.slideshare.net/linux.rafa/docker-112-swarm-mode"
+  description: Slides da palestra "Docker 1.12 Swarm Mode"
+- url: "https://www.slideshare.net/linux.rafa/docker-como-super-comando"
+  description: Slides da palestra "Docker como super comando"
