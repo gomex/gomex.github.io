@@ -1,0 +1,13 @@
+# talks
+
+- talk: We need to talk about Infrastructure code test
+  place: The developer conference Florianópolis 2017 and Agile Trends 2017
+  description: Infrastructure is turning to code, so we need to be test that code automatically, because if we changing the behavior of an environment without ta manual interaction is a dangerous task, if executed without any automated checking.
+
+- talk: Docker and PHP: From developer to production
+  place: The Developer Conference Florianópolis 2017
+  description: How about developing in PHP using a faster and safer model? Using Docker you will be able to package your applications to running on your machine the same infra that is in production. No more saying "On my machine it works"! Let's take a look at how you can use Docker to develop and even put your code into production.
+
+- talk: Docker for developers: Building super commands
+  place: The Developer Conference São Paulo 2016, The Developer Conference Florianópolis 2016 and Agile Brazil 2016
+  description: Using docker images, and a little imagination, you can make use of your skills to start short-lived containers, which we call here "super commands." They will aim to perform some specific activity, with all libraries in the required version, infrastructure-managed configuration files by the developer.
