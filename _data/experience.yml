@@ -2,7 +2,8 @@
 - company: Stone Payments
   position: Specialist (DevOps Engineer)
   duration: Aug, 2017 &mdash; present;
-  summary: My job is to help my team to produce software using DevOps culture, and have fun while doing it, because we are all human! <br> Member of an remote and agile team that delivers and mantains solutions for Thoughtworks. Worked as devops consultant of a agile team distributed in Belo Horizonte (Brazil), Porto Alegre (Brazil), Chicago (USA) and Quito (Equador). This project used many technologies such as Gitlab, Ansible, GoCD, Docker, ServerSpec, and continuous delivery. In the last 11 months I worked as a DevOps consultant helping a group of developers to have your own self service infrastructure using infra as code.	<br> Technologies <br><ul class="resume-item-list"><li>Ansible</li><li>Docker</li><li>Gitlab</li><li>GoCD (Alternative of Jenkins)</li><li>AWS</li><li>Ec2 with AutoScaling and Blue Green Deployment (AWS instances)</li><li>Python</li></ul>
+  summary: My job still is to help my team to produce software using DevOps culture, Member of an remote and agile team that help developers to create your own infra and deploy your artifactors. 
+  <br> Technologies <br><ul class="resume-item-list"><li>Ansible</li><li>Docker</li><li>Gitlab</li><li>GoCD (Alternative of Jenkins)</li><li>AWS</li><li>Vmware</li><li>OpenStack</li><li>Python</li></ul>
 
 - company: Thoughtworks
   position: Senior consultant (DevOps Engineer)
