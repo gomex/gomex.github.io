@@ -2,8 +2,7 @@
 - company: Stone Payments
   position: Specialist (DevOps Engineer)
   duration: Aug, 2017 &mdash; present;
-  summary: My job still is to help my team to produce software using DevOps culture, Member of an remote and agile team that help developers to create your own infra and deploy your artifactors. 
-  <br> Technologies <br><ul class="resume-item-list"><li>Ansible</li><li>Docker</li><li>Gitlab</li><li>GoCD (Alternative of Jenkins)</li><li>AWS</li><li>Vmware</li><li>OpenStack</li><li>Python</li></ul>
+  summary: My job still is to help my team to produce software using DevOps culture, Member of an remote and agile team that help developers to create your own infra and deploy your artifactors. <br> Technologies <br><ul class="resume-item-list"><li>Ansible</li><li>Docker</li><li>Gitlab</li><li>GoCD (Alternative of Jenkins)</li><li>AWS</li><li>Vmware</li><li>OpenStack</li><li>Python</li></ul>
 
 - company: Thoughtworks
   position: Senior consultant (DevOps Engineer)
