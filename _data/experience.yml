@@ -1,8 +1,13 @@
 # Jobs
+- company: Paycertify
+  position: DevOps Engineer
+  duration: Dec, 2018 &mdash; present;
+  summary: Responsible for automate deployment, designing infrastructure and support development team to delivery our products to customers and being a hands-on peer leader of top development resources. <br> Technologies <br><ul class="resume-item-list"><li>Ruby on Rails</li><li>Docker</li><li>Fargate (AWS)</li><li>Jenkins</li><li>AWS</li><li>Terraform</li><li>Nginx</li></ul>
+  
 - company: Crossover (Aurea)
   position: SaaS Chief Architect (DevOps Engineer)
-  duration: May, 2018 &mdash; present;
-  summary: responsible for developing solutions to complex architectural problems, designing and delivering real enterprise-class software products to customers and being a hands-on peer leader of top development resources. <br> Technologies <br><ul class="resume-item-list"><li>Ansible</li><li>Docker</li><li>Kubernetes</li><li>Jenkins</li><li>AWS</li><li>Vmware</li><li>Python</li></ul>
+  duration: May, 2018 &mdash; Dec, 2018;
+  summary: Responsible for developing solutions to complex architectural problems, designing and delivering real enterprise-class software products to customers and being a hands-on peer leader of top development resources. <br> Technologies <br><ul class="resume-item-list"><li>Ansible</li><li>Docker</li><li>Kubernetes</li><li>Jenkins</li><li>AWS</li><li>Vmware</li><li>Python</li></ul>
 
 - company: Stone Payments
   position: Specialist (DevOps Engineer)
