@@ -1,11 +1,25 @@
 # Projects
-# donutfinder.io
+- project: DevOpsDays Porto Alegre
+  role: Organizer
+  duration: 2016 &mdash; Present
+
+- project: DevOpsDays Salvador
+  role: Organizer
+  duration: 2017 &mdash; Present
+  
+- project: DevOpsDays Feira de Santana
+  role: Organizer
+  duration: 2018 &mdash; Present
+  
+- project: DevOpsDays Rio de Janeiro
+  role: Organizer
+  duration: 2018 &mdash; Present
+
 - project: DockerBR
   role: Founder
   duration: 2015 &mdash; Present
   description: User group to discuss about Docker and related tools.
 
-#Springfield Donut Eater's User Group
 - project: Docker Captain
   role: Captain
   duration: 2016 &mdash; Present
