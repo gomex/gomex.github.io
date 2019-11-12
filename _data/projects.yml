@@ -23,3 +23,7 @@
 - project: Book Infrastructure as code
   role: Reviewer
   description: I reviewed the testing of infrastructure code chapter of book Infrastructure as Code, written by Kief Morris, from O'Reilly Publishing.
+
+- project: Docker for developers (Docker para Desenvolvedores)
+  role: Author
+  description: I wrote this book as open source project to provide knowledge for whom wanna start to use docker (https://github.com/gomex/docker-para-desenvolvedores)
