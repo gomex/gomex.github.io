@@ -1,7 +1,12 @@
 # Jobs
+- company: DNSFilter
+  position: DevOps Engineer
+  duration: Jan, 2020 &mdash; present;
+  summary: Responsible for maintaining anycast network (+100 nodes around the world), Kafka Cluster and timescaledb (SGDB), automate deployment, monitoring BGP problems and designing infrastructure and support development team to delivery our products to customers. <br> Technologies <br><ul class="resume-item-list"><li>Ruby on Rails</li><li>Docker</li><li>Ansible</li><li>Jenkins</li><li>Terraform</li><li>Kafka</li><li>Timescaledb</li><li>SQL</li><li>BGP</li></ul>
+  
 - company: Paycertify
   position: DevOps Engineer
-  duration: Dec, 2018 &mdash; present;
+  duration: Dec, 2018 &mdash; Jan, 2020;
   summary: Responsible for automate deployment, designing infrastructure and support development team to delivery our products to customers and being a hands-on peer leader of top development resources. <br> Technologies <br><ul class="resume-item-list"><li>Ruby on Rails</li><li>Docker</li><li>Fargate (AWS)</li><li>Jenkins</li><li>AWS</li><li>Terraform</li><li>Nginx</li></ul>
   
 - company: Crossover (Aurea)
