@@ -1,9 +1,5 @@
 # links
-- url: "http://techfree.com.br"
+- url: "http://gomex.me"
   description: My blog (In Portuguese only)
-- url: "https://www.slideshare.net/linux.rafa/precisamos-falar-sobre-testes-de-infraestrutura"
-  description: Talk "Precisamos falar sobre testes de infraestrutura" (In Portuguese only)
-- url: "https://www.slideshare.net/linux.rafa/docker-112-swarm-mode"
-  description: Talk "Docker 1.12 Swarm Mode" (In Portuguese only)
-- url: "https://www.slideshare.net/linux.rafa/docker-como-super-comando"
-  description: Talk "Docker como super comando" (In Portuguese only)
+- url: "https://mentoriadevops.io"
+  description: Mentoria DevOps - DevOps mentoring (In Portuguese only)
