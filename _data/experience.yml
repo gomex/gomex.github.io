@@ -1,6 +1,6 @@
 # Jobs
 - company: DNSFilter
-  position: DevOps Engineer
+  position: Platform Engineer (Tech Lead)
   duration: Jan, 2020 &mdash; present;
   summary: Responsible for maintaining anycast network (+100 nodes around the world), Kafka Cluster and timescaledb (SGDB), automate deployment, monitoring BGP problems and designing infrastructure and support development team to delivery our products to customers. <br> Technologies <br><ul class="resume-item-list"><li>Ruby on Rails</li><li>Docker</li><li>Ansible</li><li>Jenkins</li><li>Terraform</li><li>Kafka</li><li>Timescaledb</li><li>SQL</li><li>BGP</li></ul>
   
